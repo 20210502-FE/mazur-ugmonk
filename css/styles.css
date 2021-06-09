@@ -267,7 +267,7 @@ a {
 }
 
 .sale__content {
-    margin: 90px 105px 179px 93px;
+    padding: 90px 105px 179px 93px;
 }
 
 .sale__content-title-upper {
@@ -348,7 +348,7 @@ a {
     font-size: 35px;
 }
 
-.studio__content-text {
+.studio__content-title {
     max-width: 782px;
     text-align: center;
 }
@@ -387,21 +387,26 @@ a {
 }
 
 .footer {
-    height: 359px;
+    padding: 84px 0 104px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer__left {
-    height: 359px;
-    width: 338px;
+.footer__nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
-.footer__left li {
+.footer__left-about {
+    padding-left: 50px;
+}
+
+.footer-link {
+    color: #000000;
+}
+
+.footer__nav li {
     margin-top: 14px;
 }
 
